@@ -2,14 +2,14 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Thymeleaft Demo</title>
+    <title>Thymeleaf Demo</title>
 </head>
 <body>
     <span th:text="${message}"></span>
 
     <h3>Exam Results</h3>
     <div th:if="${grade >= 60}">
-        You passed the exam
+        You the man!  You passed your exam
         <div th:switch="${GPA}">
             You are
             <span th:case="A">Excellent</span>
